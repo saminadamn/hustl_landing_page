@@ -1,0 +1,2 @@
+-- Add comment to explain payment method details format
+COMMENT ON COLUMN payment_methods.details IS 'Stores payment method details in a secure format. For cards: last4, brand, exp_month, exp_year. For mobile payments: username, QR code data';
